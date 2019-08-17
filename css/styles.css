@@ -9,11 +9,12 @@ body{
 .container{
     /* border: solid 1px black; */
     height: 100vh;
-    width: 80vw;
+    width: 90vw;
     padding: 0;
     margin: 0;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-bottom: 20px;
 }
 
 #headerDiv{
@@ -95,10 +96,10 @@ body{
 }
 
 .sectionTwoContainer{
-    border: solid 1px black;
-    /* height: 100px; */
     display: flex;
     flex-direction: row;
+    height: 50vh;
+    background-color: #afa7a733;
 }
 
 #sectionTwoLeft{
@@ -111,4 +112,122 @@ body{
 
 #sectionTwoRight{
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1adad33;
+}
+
+#sectionTwoLogosContainer{
+    width: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-self: flex-start;
+
+}
+
+.bubble:hover{
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.qouteContainer{
+    background-color: rgba(193,192,192,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gridOfImages{
+    height: 30vh;
+}
+
+.socialMediaSection{
+    background-color: rgba(193,192,192,0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#socialMediaButtons{
+    display: flex;
+    flex-direction: row;
+    width: 29%;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+#sayHiHSection{
+    width: 60%;
+}
+
+#socialMediaBubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialMediaBubble:hover{
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.navbarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #afa7a733;
+    height: 17vh;
+}
+.navbar{
+
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+li:hover{
+    color: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2); 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.3); 
+  }
