@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container{
+    /* border: solid 1px black; */
+    height: 100vh;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#headerDiv{
+    /* background-color: red; */
+    /* border: solid 1px black; */
+    height: 50%;
+    width: 100%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/1280px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* filter: blur(1px); */
+}
+
+#content{
+    height: 48%;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#headerContent{
+    display: flex;
+    height: 20%;
+    flex-direction: row;
+    /* border: solid 1px black; */
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#headerBody{
+    display: flex;
+    justify-content: center;
+}
+
+#bodyContent{
+    /* border: solid 2px red; */
+    height: 41%;
+    width: 100%; 
+    background-color: rgba(193,192,192,0.1);
+}
+
+#phoneImage{
+    height: 336px;
+    width: 172px;
+    /* border: solid 1px black; */
+    position: relative;
+    bottom: 171px;
+}
+
+#phoneImageContainer{
+    justify-content: center;
+    display: flex;
+}
+
+#bodySectionOne{
+    height: 100%;
+    width: 40%;
+    /* border: solid 1px black; */
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+#bodySectionTwo{
+    height: 100%;
+    width: 40%;
+    /* border: solid 1px red; */
+}
+
+.sectionContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* border: solid 1px grey; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionTwoContainer{
+    border: solid 1px black;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+}
+
+#sectionTwoLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionTwoRight{
+    width: 50%;
+}
